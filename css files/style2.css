@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+     font-family: 'Inter', Arial, Helvetica, sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+
+/* navbar */
+.navbar3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 17px;
+    margin: 30px;
+    background-color: #ffff;
+    align-items: center;
+     z-index:1000;
+ position: fixed;
+    top: 50;
+    right: 40px;
+    left: 40px;
+
+}
+
+img {
+    width: 50px;
+}
+
+.logo3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-right: 100px;
+}
+
+span {
+    font-weight: bold;
+    color: rgb(75, 74, 74);
+}
+
+.text {
+    border-left: 1px solid black;
+    padding: 16px;
+}
+
+.navlist3 ul {
+    display: flex;
+    gap: 30px;
+    margin-left: 40PX;
+
+
+}
+
+
+.navlist3 li a {
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+}
+
+.textlogo {
+
+    color: rgb(85, 85, 85);
+}
+
+.navlist3 li a {
+
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.serch-icon3 {
+    font-size: 21PX;
+    margin-right: 10PX;
+
+}
+
+.menu {
+    font-size: 30px;
+    display: none;
+}
+.listclick3 li :hover{ border: 2px solid blue;
+background-color: #1c69d4;
+    color: #ffff;
+    border: none;
+    padding: 16px;
+}
+.serch-icon3 :hover{border: 2px solid blue;
+background-color: #1c69d4;
+    color: #ffff;
+    border: none;
+    padding: 16px;
+cursor: pointer;}
+
+
+
+/* hero section */
+
+.vido2{display: block;}
+.text6 {
+    color: aliceblue;
+    padding: 30px;
+    
+}
+
+
+.info {
+    color: aliceblue;
+    line-height: 40px;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.maincontant{
+    padding-left: 90px;
+    padding-top: 60px;
+    background-color: rgb(38, 37, 37);
+
+  
+}
+
+
+
+h1 {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 72px;          
+  font-weight: 300;         
+  letter-spacing: 0.12em;   
+  text-transform: uppercase;
+  line-height: 1.1;
+  color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.info-sec{
+
+
+    color: black; 
+ 
+     padding: 90px 90px;
+     
+}
+.minitext{
+ 
+  font-size: 28px;
+  line-height: 1.4;
+  color: #000;
+  margin-bottom: 25px;
+  max-width: 600px;
+
+
+}
+
+
+.info-link{text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(75, 74, 74);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 1px;}
+
+
+  .info-link .arrow {
+  font-size: 30px;
+  color: #000;
+}
+/*  hero section end */
+
+
+/* footer */
+.bmw-footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 60px 80px;
+}
+
+.footer-languages {
+  margin-bottom: 50px;
+}
+
+.footer-languages a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.footer-languages .active,
+.footer-languages a:hover {
+  color: #fff;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-col h4::after {
+  width: 30px;
+  height: 1px;
+  background: #555;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.footer-col a {
+  display: block;
+  color: #aaa;
+  text-decoration: none;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}
+
+
+.site-footer {
+  color: #ffffff;
+  padding-top: 40px;
+  font-size: 17px;
+}
+/* footer end */
+
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-columns {
+    grid-template-columns: 1fr;
+  }
+}
