@@ -241,7 +241,7 @@ h1 {
 
 
 
-.text-content {
+.text-content { 
     padding: 30px;
 }
 
@@ -372,5 +372,140 @@ h1 {
     padding-top: 20px;
 }
 
+
+
+
+
+
+
+.digital-journey {
+  max-width: 1180px;
+  margin: 60px auto;
+}
+
+.cards {
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5px;
+}
+
+
+
+.box-one img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+
+.tag {
+  margin: 19px 0 8px;
+  font-size: 18px;
+  color: #464545;
+  font-weight: 50;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.ages-sec{  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000;
+  padding-left: 40px;
+
+
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000;
+}
+
+.btn-wrapper {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+.show-more {
+  width: 300px;         
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  background: transparent;
+  border: 2px solid #2c2c2c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.show-more:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* footer */
+.bmw-footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 60px 80px;
+}
+
+.footer-languages {
+  margin-bottom: 50px;
+}
+
+.footer-languages a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.footer-languages .active,
+.footer-languages a:hover {
+  color: #fff;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-col h4::after {
+  width: 30px;
+  height: 1px;
+  background: #555;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.footer-col a {
+  display: block;
+  color: #aaa;
+  text-decoration: none;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}
+
+
+.site-footer {
+  color: #ffffff;
+  padding-top: 40px;
+  font-size: 17px;
+}
+/* footer end */
 
 /*  hero section end */

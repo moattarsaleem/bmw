@@ -86,12 +86,15 @@ background-color: #1c69d4;
     color: #ffff;
     border: none;
     padding: 16px;
+      transition:  0.2s ease;
 }
 .serch-icon :hover{border: 2px solid blue;
 background-color: #1c69d4;
     color: #ffff;
     border: none;
     padding: 16px;
+    
+ transition:  0.2s ease;
 cursor: pointer;}
 
 /* navbar end */
