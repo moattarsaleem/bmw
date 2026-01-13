@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 
@@ -98,3 +99,473 @@ background-color: #1c69d4;
 cursor: pointer;}
 
 /* navbar end */
+/*  */
+
+.text6 {
+    color: aliceblue;
+    padding: 30px;
+
+}
+
+
+.info {
+    color: aliceblue;
+    line-height: 40px;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.maincontant {
+    padding-left: 90px;
+    padding-top: 60px;
+    background-color: rgb(38, 37, 37);
+}
+
+
+
+h1 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.info-sec {
+
+
+    color: black;
+
+    padding: 90px 90px;
+
+}
+
+.minitext {
+
+    font-size: 28px;
+    line-height: 1.4;
+    color: #000;
+    margin-bottom: 25px;
+    max-width: 600px;
+
+
+}
+
+
+.info-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(75, 74, 74);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: 1px;
+}
+
+
+.info-link .arrow {
+    font-size: 30px;
+    color: #000;
+}
+
+
+.main-contanor-video {
+    display: flex;
+    margin: 70px;
+    gap: 5px;
+}
+
+.firttextv {
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.neue {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+
+.neue2 {
+    font-size: 20px;
+    color: rgb(41, 40, 40);
+}
+
+
+.future {
+    font-size: 26px;
+    line-height: 40px;
+    color: #141414;
+}
+
+.left {
+    padding-left: 40px;
+}
+
+.right {
+    padding-left: 30px;
+}
+
+.threev {
+    display: flex;
+    justify-content: center;
+}
+
+.three-text-contenor {
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.vido2 {
+    display: block;
+}
+
+/*  */
+
+.section-grid {
+    display: flex;
+    gap: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card {
+    flex: 1;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+.media-box {
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease;
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/image1.webp");
+
+}
+
+
+.media-box:hover {
+    background-image: url("../assets/image7.webp");
+}
+
+.media-box:hover {
+    background-image: url("../assets/image8.webp");
+}
+
+
+
+
+.media-box {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+
+.media-box img,
+.media-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.7s cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.card:hover .media-box img,
+.card:hover .media-box video {
+    transform: scale(1.08);
+}
+
+.content {
+    padding: 24px;
+}
+
+.category-label {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.main-title {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.3;
+    max-width: 90%;
+}
+
+.second-sec-grid{
+    padding : 100px;
+}
+
+/*  */
+.main-contanor-video {
+    display: flex;
+    margin: 70px;
+    gap: 5px;
+}
+
+.firttextv {
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.neue {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+
+.neue2 {
+    font-size: 20px;
+    color: rgb(41, 40, 40);
+}
+
+
+.future {
+    font-size: 26px;
+    line-height: 40px;
+    color: #141414;
+}
+
+.left {
+    padding-left: 40px;
+}
+
+.right {
+    padding-left: 30px;
+}
+
+.threev {
+    display: flex;
+    justify-content: center;
+}
+
+.three-text-contenor {
+    padding-left: 70px;
+    padding-top: 10px;
+}
+/* show more waly section sy phly wala box */
+
+
+
+
+.digital-journey {
+  max-width: 1180px;
+  margin: 60px auto;
+}
+
+.cards {
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5px;
+}
+
+
+
+.box-one img {
+  width: 100%;
+  height: 220px;
+    
+  cursor: pointer;
+}
+
+
+.tag {
+  margin: 19px 0 8px;
+  font-size: 18px;
+  color: #464545;
+  font-weight: 50;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.ages-sec{  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000;
+  padding-left: 40px;
+
+
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000;
+}
+/*  */
+header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(to bottom, #000, #111);
+    }
+
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0;                    /* BMW mein images tight fit hoti hain, no gap */
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .image-item {
+      flex: 1 1 25%;             /* 4 images side by side on large screen */
+      min-width: 300px;          /* mobile pe stack ho jaye */
+      height: 60vh;              /* BMW jaisi tall-wide ratio ~16:9 ya cinematic */
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .image-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;         /* important – poori image fit without distortion */
+      object-position: center;
+      transition: transform 0.6s ease;  /* smooth BMW-like slow zoom */
+    }
+
+    .image-item:hover img {
+      transform: scale(1.12);    /* BMW mein ~10-15% zoom hota hai, yeh perfect lagta hai */
+    }
+
+    /* Text overlay jaise BMW mein hota hai (optional – agar chaho toh add karo) */
+    .overlay {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+      pointer-events: none;
+    }
+
+    /* Video section – last mein */
+    .video-section {
+      padding: 80px 20px;
+      background: #111;
+      text-align: center;
+    }
+
+    .video-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+    }
+
+    .video-wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.9);
+    }
+
+    iframe {
+      width: 100%;
+      height: 65vh;              /* BMW video full wide + cinematic height */
+      border: none;
+    }
+    /*  */
+    
+
+
+
+.section-grid {
+    display: flex;
+    gap: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card {
+    flex: 1;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+.media-box {
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease;
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/image11.webp");
+
+}
+
+
+
+
+
+.media-box {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+
+.media-box img,
+.media-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.7s cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.card:hover .media-box img,
+.card:hover .media-box video {
+    transform: scale(1.08);
+}
+
+.content {
+    padding: 24px;
+}
+
+.category-label {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.main-title {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.3;
+    max-width: 90%;
+}
+.main-grid{
+    padding-top: 50px;
+}
+
+/* end */

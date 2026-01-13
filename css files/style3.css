@@ -375,7 +375,7 @@ h1 {
 
 
 
-
+/* show more waly section sy phly wala box */
 
 
 .digital-journey {
@@ -396,6 +396,7 @@ h1 {
   width: 100%;
   height: 220px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 
@@ -422,7 +423,8 @@ h1 {
   line-height: 1.4;
   color: #000;
 }
-
+/* end */
+/* show more button */
 .btn-wrapper {
   text-align: center;
   padding-top: 90px;
@@ -443,6 +445,7 @@ h1 {
   background: #000;
   color: #fff;
 }
+/* end */
 
 /* footer */
 .bmw-footer {
