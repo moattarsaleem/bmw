@@ -98,3 +98,575 @@ background-color: #1c69d4;
 cursor: pointer;}
 
 /* navbar end */
+/*  */
+.vido2 {
+    display: block;
+}
+
+.text6 {
+    color: aliceblue;
+    padding: 30px;
+
+}
+
+
+.info {
+    color: aliceblue;
+    line-height: 40px;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.maincontant {
+    padding-left: 90px;
+    padding-top: 60px;
+    background-color: rgb(38, 37, 37);
+}
+
+h1 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.info-sec {
+
+
+    color: black;
+
+    padding: 90px 90px;
+
+}
+/*  */
+
+.power-section{
+display: flex;
+justify-content: center;}
+ .image-text {
+  color: #161616;
+  padding-top: 10px;
+  font-size: 25px;
+   font-weight: 540;
+     line-height: 1.3;
+
+} 
+
+/*  */
+.end{
+    padding: 40px;
+    padding-left: 140px;
+}
+.second-men-box img{
+    width: 88%;
+   display: block;
+  margin: 0 auto;
+}
+
+.second-men-box{
+    display: grid;
+}
+
+/*  */
+.main-contanor-video {
+    display: flex;
+    margin: 70px;
+    gap: 5px;
+}
+
+.firttextv {
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+.neue {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+
+.neue2 {
+    font-size: 20px;
+    color: rgb(41, 40, 40);
+}
+
+
+.future {
+    font-size: 26px;
+    line-height: 40px;
+    color: #141414;
+}
+
+.left {
+    padding-left: 40px;
+}
+
+.right {
+    padding-left: 30px;
+}
+
+.threev {
+    display: flex;
+    justify-content: center;
+}
+
+.three-text-contenor {
+    padding-left: 70px;
+    padding-top: 10px;
+}
+/* show more waly section sy phly wala box */
+
+
+
+
+.digital-journey {
+  max-width: 1180px;
+  margin: 60px auto;
+}
+
+.cards {
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5px;
+}
+
+
+
+.box-one img {
+  width: 100%;
+  height: 220px;
+    
+  cursor: pointer;
+}
+
+
+.tag {
+  margin: 19px 0 8px;
+  font-size: 18px;
+  color: #464545;
+  font-weight: 50;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.ages-sec{  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000;
+  padding-left: 40px;
+
+
+}
+/*  */
+.img-box-five {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.img-box-five img {
+    width: 97%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+
+.img-box-five:hover img {
+    transform: scale(1.06);
+}
+
+.four-text-contenor {
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+
+.neue5 {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+
+
+
+
+.future5 {
+    font-size: 26px;
+    line-height: 40px;
+    color: #141414;
+}
+
+
+/* copy sec */
+
+
+.section-grid {
+    display: flex;
+    gap: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card {
+    flex: 1;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+.media-box {
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease;
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/image11.webp");
+
+}
+
+
+
+
+
+.media-box {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+
+.media-box img,
+.media-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1.7s cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.card:hover .media-box img,
+.card:hover .media-box video {
+    transform: scale(1.08);
+}
+
+.content {
+    padding: 24px;
+}
+
+.category-label {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.main-title {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.3;
+    max-width: 90%;
+}
+.main-grid{
+    padding-top: 50px;
+}
+
+/* men pic section  */
+.img-box-five {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.img-box-five img {
+    width: 97%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+
+.img-box-five:hover img {
+    transform: scale(1.06);
+}
+
+.four-text-contenor {
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+
+.neue5 {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+
+
+
+
+.future5 {
+    font-size: 26px;
+    line-height: 40px;
+    color: #141414;
+}
+/*  */
+/* SECTION */
+.bmw-card-section {
+  padding-top: 50px;
+}
+
+/* GRID */
+.bmw-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+/* CARD */
+.bmw-card {
+  cursor: pointer;
+}
+
+/* IMAGE BOX (IMPORTANT) */
+.bmw-card-img {
+  overflow: hidden;        /* 👈 image bahar nahi jayegi */
+}
+
+/* IMAGE */
+.bmw-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+/* HOVER EFFECT */
+.bmw-card:hover .bmw-card-img img {
+  transform: scale(1.08);  /* 👈 andar hi zoom */
+}
+
+/* TEXT */
+.bmw-card-text {
+  padding: 40px ;
+}
+.image-sound{  font-size: 20px;
+  font-weight: 540;
+  line-height: 1.90;
+  color: #222222;
+
+}
+
+.power-section{
+display: flex;
+justify-content: center;}
+ .image-text {
+  color: #161616;
+  padding-top: 10px;
+  font-size: 25px;
+   font-weight: 540;
+     line-height: 1.3;
+
+} 
+
+/*  */
+.end{
+    padding: 40px;
+    padding-left: 140px;
+}
+.second-men-box img{
+    width: 88%;
+   display: block;
+  margin: 0 auto;
+}
+
+.second-men-box{
+    display: grid;
+}
+
+/*  */
+/* show more button */
+.btn-wrapper {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+.show-more {
+  width: 300px;         
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  background: transparent;
+  border: 2px solid #2c2c2c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.show-more:hover {
+  background: #000;
+  color: #fff;
+}
+/* end */
+
+/* footer */
+.bmw-footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 60px 80px;
+}
+
+.footer-languages {
+  margin-bottom: 50px;
+}
+
+.footer-languages a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.footer-languages .active,
+.footer-languages a:hover {
+  color: #fff;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-col h4::after {
+  width: 30px;
+  height: 1px;
+  background: #555;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.footer-col a {
+  display: block;
+  color: #aaa;
+  text-decoration: none;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}
+
+
+.site-footer {
+  color: #ffffff;
+  padding-top: 40px;
+  font-size: 17px;
+}
+/* footer end */
+
+/* end */
+
+
+/*  */
+
+.video-grid {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding: 90px;
+}
+
+
+
+.text-content { 
+    padding: 30px;
+}
+
+
+.title {
+    font-size: 26px;
+    color: #141414;
+    line-height: 1.3;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+.section-grid {
+    display: flex;
+    gap: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card {
+    flex: 1;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.more-cars-container {
+    display: flex;
+ gap: 5px;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.image-car img{
+    width: 590px;
+}
+.text-car{
+    padding: 30px;
+}
+.text-car p{ 
+font-size: 18px;
+color: #0e0d0d;
+padding-bottom: 10px;
+font-weight: 540;
+}
+.text-car h3{ 
+font-size: 26px;
+color: #141414;
+padding-bottom: 10px;
+font-weight: 540;
+}
+.car-hide{
+    padding: 70px;
+}
+/*  */
+.bmws{
+    padding-inline: 90px;
+}
