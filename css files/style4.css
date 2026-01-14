@@ -568,4 +568,209 @@ header {
     padding-top: 50px;
 }
 
+/* men pic section  */
+.img-box-five {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.img-box-five img {
+    width: 97%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+
+.img-box-five:hover img {
+    transform: scale(1.06);
+}
+
+.four-text-contenor {
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+
+.neue5 {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+
+
+
+
+.future5 {
+    font-size: 26px;
+    line-height: 40px;
+    color: #141414;
+}
+/*  */
+/* SECTION */
+.bmw-card-section {
+  padding-top: 50px;
+}
+
+/* GRID */
+.bmw-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+/* CARD */
+.bmw-card {
+  cursor: pointer;
+}
+
+/* IMAGE BOX (IMPORTANT) */
+.bmw-card-img {
+  overflow: hidden;        /* 👈 image bahar nahi jayegi */
+}
+
+/* IMAGE */
+.bmw-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+/* HOVER EFFECT */
+.bmw-card:hover .bmw-card-img img {
+  transform: scale(1.08);  /* 👈 andar hi zoom */
+}
+
+/* TEXT */
+.bmw-card-text {
+  padding: 40px ;
+}
+.image-sound{  font-size: 20px;
+  font-weight: 540;
+  line-height: 1.90;
+  color: #222222;
+
+}
+
+.power-section{
+display: flex;
+justify-content: center;}
+ .image-text {
+  color: #161616;
+  padding-top: 10px;
+  font-size: 25px;
+   font-weight: 540;
+     line-height: 1.3;
+
+} 
+
+/*  */
+.end{
+    padding: 40px;
+    padding-left: 140px;
+}
+.second-men-box img{
+    width: 88%;
+   display: block;
+  margin: 0 auto;
+}
+
+.second-men-box{
+    display: grid;
+}
+
+/*  */
+/* show more button */
+.btn-wrapper {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+.show-more {
+  width: 300px;         
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  background: transparent;
+  border: 2px solid #2c2c2c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.show-more:hover {
+  background: #000;
+  color: #fff;
+}
+/* end */
+
+/* footer */
+.bmw-footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 60px 80px;
+}
+
+.footer-languages {
+  margin-bottom: 50px;
+}
+
+.footer-languages a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.footer-languages .active,
+.footer-languages a:hover {
+  color: #fff;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-col h4::after {
+  width: 30px;
+  height: 1px;
+  background: #555;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.footer-col a {
+  display: block;
+  color: #aaa;
+  text-decoration: none;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}
+
+
+.site-footer {
+  color: #ffffff;
+  padding-top: 40px;
+  font-size: 17px;
+}
+/* footer end */
+
 /* end */

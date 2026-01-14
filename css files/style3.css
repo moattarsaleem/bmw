@@ -214,9 +214,7 @@ h1 {
     padding-left: 40px;
 }
 
-.right {
-    padding-left: 30px;
-}
+
 
 .threev {
     display: flex;
@@ -343,7 +341,7 @@ h1 {
 
 
 
-
+/* men image section  */
 
 .img-box-four {
     width: 100%;
@@ -355,7 +353,9 @@ h1 {
     padding-top: 20px;
 }
 
-
+.right {
+    padding-left: 30px;
+}
 .img-box-four img {
     width: 84%;
     object-fit: cover;
