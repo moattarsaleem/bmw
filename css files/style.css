@@ -190,9 +190,6 @@ button:hover {
 }
 
 @media (max-width: 985px) {
-    /* .leftcont {
-        display: none;
-    } */
 
     .contant {
         display: flex;
@@ -255,5 +252,4 @@ button:hover {
 
 }
 
-
-/* hometext */
+/* end */

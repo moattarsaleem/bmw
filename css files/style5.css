@@ -182,7 +182,6 @@ h1 {
     display: grid;
 }
 
-/*  */
 .main-contanor-video {
     display: flex;
     margin: 70px;
@@ -230,11 +229,6 @@ h1 {
     padding-top: 10px;
 }
 
-/* show more waly section sy phly wala box */
-
-
-
-
 .digital-journey {
     max-width: 1180px;
     margin: 60px auto;
@@ -276,7 +270,7 @@ h1 {
 
 }
 
-/*  */
+
 .img-box-five {
     width: 100%;
     overflow: hidden;
@@ -313,15 +307,11 @@ h1 {
 
 
 
-
 .future5 {
     font-size: 26px;
     line-height: 40px;
     color: #141414;
 }
-
-
-/* copy sec */
 
 
 .section-grid {
@@ -401,7 +391,6 @@ h1 {
     padding-top: 50px;
 }
 
-/* men pic section  */
 .img-box-five {
     width: 100%;
     overflow: hidden;
