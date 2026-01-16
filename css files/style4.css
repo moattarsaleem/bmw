@@ -2,13 +2,14 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 
 }
 
 body {
     background-color: rgb(240, 243, 243);
 }
+
 /* navbar */
 .navbar4 {
     display: flex;
@@ -17,8 +18,8 @@ body {
     margin: 30px;
     background-color: #ffff;
     align-items: center;
-      z-index:1000;
- position: fixed;
+    z-index: 1000;
+    position: fixed;
     top: 50;
     right: 40px;
     left: 40px;
@@ -85,21 +86,28 @@ ul {
     font-size: 30px;
     display: none;
 }
-.listclick li :hover{ border: 2px solid blue;
-background-color: #1c69d4;
+
+.listclick li :hover {
+    border: 2px solid blue;
+    background-color: #1c69d4;
     color: #ffff;
     border: none;
     padding: 16px;
+    transition: 0.2s ease;
 }
-.serch-icon :hover{border: 2px solid blue;
-background-color: #1c69d4;
+
+.serch-icon :hover {
+    border: 2px solid blue;
+    background-color: #1c69d4;
     color: #ffff;
     border: none;
     padding: 16px;
-cursor: pointer;}
+    cursor: pointer;
+    transition: 0.2s ease;
+}
 
 /* navbar end */
-/*  */
+/* hero section */
 
 .text6 {
     color: aliceblue;
@@ -209,11 +217,12 @@ cursor: pointer;}
     padding-left: 70px;
     padding-top: 10px;
 }
+
 .vido2 {
     display: block;
 }
 
-/*  */
+
 
 .section-grid {
     display: flex;
@@ -229,9 +238,6 @@ cursor: pointer;}
     text-decoration: none;
     color: inherit;
 }
-
-
-
 
 
 .media-box {
@@ -296,11 +302,10 @@ cursor: pointer;}
     max-width: 90%;
 }
 
-.second-sec-grid{
-    padding : 100px;
+.second-sec-grid {
+    padding: 100px;
 }
 
-/*  */
 .main-contanor-video {
     display: flex;
     margin: 70px;
@@ -347,140 +352,132 @@ cursor: pointer;}
     padding-left: 70px;
     padding-top: 10px;
 }
-/* show more waly section sy phly wala box */
-
-
-
 
 .digital-journey {
-  max-width: 1180px;
-  margin: 60px auto;
+    max-width: 1180px;
+    margin: 60px auto;
 }
 
 .cards {
-  display: grid;
-  
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 5px;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
 }
 
 
 
 .box-one img {
-  width: 100%;
-  height: 220px;
-    
-  cursor: pointer;
+    width: 100%;
+    height: 220px;
+
+    cursor: pointer;
 }
 
 
 .tag {
-  margin: 19px 0 8px;
-  font-size: 18px;
-  color: #464545;
-  font-weight: 50;
-  padding-top: 10px;
-  padding-left: 40px;
+    margin: 19px 0 8px;
+    font-size: 18px;
+    color: #464545;
+    font-weight: 50;
+    padding-top: 10px;
+    padding-left: 40px;
 }
-.ages-sec{  font-size: 22px;
-  font-weight: 500;
-  line-height: 1.4;
-  color: #000;
-  padding-left: 40px;
+
+.ages-sec {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #000;
+    padding-left: 40px;
 
 
 }
 
 .card h3 {
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 1.4;
-  color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #000;
 }
-/*  */
+
 header {
-      text-align: center;
-      padding: 60px 20px 40px;
-      background: linear-gradient(to bottom, #000, #111);
-    }
+    text-align: center;
+    padding: 60px 20px 40px;
+    background: linear-gradient(to bottom, #000, #111);
+}
 
-    h1 {
-      font-size: 3rem;
-      letter-spacing: 4px;
-      text-transform: uppercase;
-    }
+h1 {
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
 
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0;                    /* BMW mein images tight fit hoti hain, no gap */
-      max-width: 100%;
-      margin: 0 auto;
-    }
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    max-width: 100%;
+    margin: 0 auto;
+}
 
-    .image-item {
-      flex: 1 1 25%;             /* 4 images side by side on large screen */
-      min-width: 300px;          /* mobile pe stack ho jaye */
-      height: 60vh;              /* BMW jaisi tall-wide ratio ~16:9 ya cinematic */
-      overflow: hidden;
-      position: relative;
-      cursor: pointer;
-    }
+.image-item {
+    flex: 1 1 25%;
+    min-width: 300px;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
 
-    .image-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;         /* important – poori image fit without distortion */
-      object-position: center;
-      transition: transform 0.6s ease;  /* smooth BMW-like slow zoom */
-    }
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.6s ease;
+}
 
-    .image-item:hover img {
-      transform: scale(1.12);    /* BMW mein ~10-15% zoom hota hai, yeh perfect lagta hai */
-    }
+.image-item:hover img {
+    transform: scale(1.12);
+}
 
-    /* Text overlay jaise BMW mein hota hai (optional – agar chaho toh add karo) */
-    .overlay {
-      position: absolute;
-      bottom: 30px;
-      left: 30px;
-      font-size: 1.4rem;
-      font-weight: bold;
-      text-shadow: 0 2px 10px rgba(0,0,0,0.8);
-      pointer-events: none;
-    }
+.overlay {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+    pointer-events: none;
+}
 
-    /* Video section – last mein */
-    .video-section {
-      padding: 80px 20px;
-      background: #111;
-      text-align: center;
-    }
+.video-section {
+    padding: 80px 20px;
+    background: #111;
+    text-align: center;
+}
 
-    .video-section h2 {
-      font-size: 2.5rem;
-      margin-bottom: 40px;
-      letter-spacing: 2px;
-    }
+.video-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
 
-    .video-wrapper {
-      max-width: 1200px;
-      margin: 0 auto;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.9);
-    }
+.video-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9);
+}
 
-    iframe {
-      width: 100%;
-      height: 65vh;              /* BMW video full wide + cinematic height */
-      border: none;
-    }
-    /*  */
-    
-
-
+iframe {
+    width: 100%;
+    height: 65vh;
+    border: none;
+}
 
 .section-grid {
     display: flex;
@@ -554,11 +551,11 @@ header {
     line-height: 1.3;
     max-width: 90%;
 }
-.main-grid{
+
+.main-grid {
     padding-top: 50px;
 }
 
-/* men pic section  */
 .img-box-five {
     width: 100%;
     overflow: hidden;
@@ -601,169 +598,164 @@ header {
     line-height: 40px;
     color: #141414;
 }
-/*  */
-/* SECTION */
+
 .bmw-card-section {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
-/* GRID */
 .bmw-card-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
 }
 
-/* CARD */
 .bmw-card {
-  cursor: pointer;
+    cursor: pointer;
 }
 
-/* IMAGE BOX (IMPORTANT) */
 .bmw-card-img {
-  overflow: hidden;        /* 👈 image bahar nahi jayegi */
+    overflow: hidden;
 }
 
-/* IMAGE */
 .bmw-card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.6s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
 }
 
-/* HOVER EFFECT */
 .bmw-card:hover .bmw-card-img img {
-  transform: scale(1.08);  /* 👈 andar hi zoom */
+    transform: scale(1.08);
 }
 
-/* TEXT */
 .bmw-card-text {
-  padding: 40px ;
-}
-.image-sound{  font-size: 20px;
-  font-weight: 540;
-  line-height: 1.90;
-  color: #222222;
-
+    padding: 40px;
 }
 
-.power-section{
-display: flex;
-justify-content: center;}
- .image-text {
-  color: #161616;
-  padding-top: 10px;
-  font-size: 25px;
-   font-weight: 540;
-     line-height: 1.3;
+.image-sound {
+    font-size: 20px;
+    font-weight: 540;
+    line-height: 1.90;
+    color: #222222;
 
-} 
+}
 
-/*  */
-.end{
+.power-section {
+    display: flex;
+    justify-content: center;
+}
+
+.image-text {
+    color: #161616;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 540;
+    line-height: 1.3;
+
+}
+
+.end {
     padding: 40px;
     padding-left: 140px;
 }
-.second-men-box img{
+
+.second-men-box img {
     width: 88%;
-   display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.second-men-box{
+.second-men-box {
     display: grid;
 }
 
-/*  */
-/* show more button */
 .btn-wrapper {
-  text-align: center;
-  padding-top: 90px;
-  padding-bottom: 60px;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
 }
+
 .show-more {
-  width: 300px;         
-  height: 50px;
-  font-size: 18px;
-  font-weight: 500;
-  background: transparent;
-  border: 2px solid #2c2c2c;
-  cursor: pointer;
-  transition: all 0.3s ease;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid #2c2c2c;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .show-more:hover {
-  background: #000;
-  color: #fff;
+    background: #000;
+    color: #fff;
 }
-/* end */
+
+/* hero section end */
 
 /* footer */
 .bmw-footer {
-  background-color: #1c1c1c;
-  color: #fff;
-  padding: 60px 80px;
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 60px 80px;
 }
 
 .footer-languages {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .footer-languages a {
-  color: #aaa;
-  text-decoration: none;
-  margin-right: 20px;
-  font-size: 14px;
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
 }
 
 .footer-languages .active,
 .footer-languages a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .footer-columns {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
 }
 
 .footer-col h4 {
-  font-size: 16px;
-  margin-bottom: 20px;
-  position: relative;
+    font-size: 16px;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .footer-col h4::after {
-  width: 30px;
-  height: 1px;
-  background: #555;
-  position: absolute;
-  bottom: -8px;
-  left: 0;
+    width: 30px;
+    height: 1px;
+    background: #555;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
 }
 
 .footer-col a {
-  display: block;
-  color: #aaa;
-  text-decoration: none;
-  margin-bottom: 12px;
-  font-size: 14px;
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-size: 14px;
 }
 
 .footer-col a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 
 .site-footer {
-  color: #ffffff;
-  padding-top: 40px;
-  font-size: 17px;
+    color: #ffffff;
+    padding-top: 40px;
+    font-size: 17px;
 }
-/* footer end */
 
-/* end */
 
 h1 {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -775,3 +767,5 @@ h1 {
     color: #ffffff;
     padding-bottom: 30px;
 }
+
+/* footer end */

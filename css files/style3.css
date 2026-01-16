@@ -88,6 +88,7 @@ ul {
     color: #ffff;
     border: none;
     padding: 16px;
+    transition: 0.2s ease;
 }
 
 .serch-icon3 :hover {
@@ -97,6 +98,7 @@ ul {
     border: none;
     padding: 16px;
     cursor: pointer;
+    transition: 0.2s ease;
 }
 
 
@@ -143,23 +145,16 @@ h1 {
 }
 
 .info-sec {
-
-
     color: black;
-
     padding: 90px 90px;
-
 }
 
 .minitext {
-
     font-size: 28px;
     line-height: 1.4;
     color: #000;
     margin-bottom: 25px;
     max-width: 600px;
-
-
 }
 
 
@@ -226,9 +221,6 @@ h1 {
     padding-top: 10px;
 }
 
-/* new */
-
-
 
 .video-grid {
     display: flex;
@@ -238,8 +230,7 @@ h1 {
 }
 
 
-
-.text-content { 
+.text-content {
     padding: 30px;
 }
 
@@ -339,10 +330,6 @@ h1 {
     max-width: 90%;
 }
 
-
-
-/* men image section  */
-
 .img-box-four {
     width: 100%;
     overflow: hidden;
@@ -356,6 +343,7 @@ h1 {
 .right {
     padding-left: 30px;
 }
+
 .img-box-four img {
     width: 84%;
     object-fit: cover;
@@ -372,143 +360,139 @@ h1 {
     padding-top: 20px;
 }
 
-
-
-
-/* show more waly section sy phly wala box */
-
-
 .digital-journey {
-  max-width: 1180px;
-  margin: 60px auto;
+    max-width: 1180px;
+    margin: 60px auto;
 }
 
 .cards {
-  display: grid;
-  
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 5px;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
 }
 
 
 
 .box-one img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  cursor: pointer;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    cursor: pointer;
 }
 
 
 .tag {
-  margin: 19px 0 8px;
-  font-size: 18px;
-  color: #464545;
-  font-weight: 50;
-  padding-top: 10px;
-  padding-left: 40px;
+    margin: 19px 0 8px;
+    font-size: 18px;
+    color: #464545;
+    font-weight: 50;
+    padding-top: 10px;
+    padding-left: 40px;
 }
-.ages-sec{  font-size: 22px;
-  font-weight: 500;
-  line-height: 1.4;
-  color: #000;
-  padding-left: 40px;
+
+.ages-sec {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #000;
+    padding-left: 40px;
 
 
 }
 
 .card h3 {
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 1.4;
-  color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #000;
 }
-/* end */
-/* show more button */
+
 .btn-wrapper {
-  text-align: center;
-  padding-top: 90px;
-  padding-bottom: 60px;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
 }
+
 .show-more {
-  width: 300px;         
-  height: 50px;
-  font-size: 18px;
-  font-weight: 500;
-  background: transparent;
-  border: 2px solid #2c2c2c;
-  cursor: pointer;
-  transition: all 0.3s ease;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid #2c2c2c;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .show-more:hover {
-  background: #000;
-  color: #fff;
+    background: #000;
+    color: #fff;
 }
-/* end */
+
+/* hero section end */
 
 /* footer */
 .bmw-footer {
-  background-color: #1c1c1c;
-  color: #fff;
-  padding: 60px 80px;
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 60px 80px;
 }
 
 .footer-languages {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .footer-languages a {
-  color: #aaa;
-  text-decoration: none;
-  margin-right: 20px;
-  font-size: 14px;
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
 }
 
 .footer-languages .active,
 .footer-languages a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .footer-columns {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
 }
 
 .footer-col h4 {
-  font-size: 16px;
-  margin-bottom: 20px;
-  position: relative;
+    font-size: 16px;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .footer-col h4::after {
-  width: 30px;
-  height: 1px;
-  background: #555;
-  position: absolute;
-  bottom: -8px;
-  left: 0;
+    width: 30px;
+    height: 1px;
+    background: #555;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
 }
 
 .footer-col a {
-  display: block;
-  color: #aaa;
-  text-decoration: none;
-  margin-bottom: 12px;
-  font-size: 14px;
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-size: 14px;
 }
 
 .footer-col a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 
 .site-footer {
-  color: #ffffff;
-  padding-top: 40px;
-  font-size: 17px;
+    color: #ffffff;
+    padding-top: 40px;
+    font-size: 17px;
 }
-/* footer end */
 
-/*  hero section end */
+/* footer end */

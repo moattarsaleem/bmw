@@ -1,151 +1,164 @@
 * {
-    margin: 0px;
-    padding: 0px;
-     font-family: 'Inter', Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 
 
 /* navbar */
 .navbar3 {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 17px;
-    margin: 30px;
-    background-color: #ffff;
-    align-items: center;
-     z-index:1000;
- position: fixed;
-    top: 50;
-    right: 40px;
-    left: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 17px;
+  margin: 30px;
+  background-color: #ffff;
+  align-items: center;
+  z-index: 1000;
+  position: fixed;
+  top: 50;
+  right: 40px;
+  left: 40px;
 
 }
 
 img {
-    width: 50px;
+  width: 50px;
 }
 
 .logo3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-right: 100px;
 }
 
 span {
-    font-weight: bold;
-    color: rgb(75, 74, 74);
+  font-weight: bold;
+  color: rgb(75, 74, 74);
 }
 
 .text {
-    border-left: 1px solid black;
-    padding: 16px;
+  border-left: 1px solid black;
+  padding: 16px;
 }
 
 .navlist3 ul {
-    display: flex;
-    gap: 30px;
-    margin-left: 40PX;
+  display: flex;
+  gap: 30px;
+  margin-left: 40PX;
 
 
 }
 
 
 .navlist3 li a {
-    color: rgb(85, 85, 85);
-    font-weight: bold;
+  color: rgb(85, 85, 85);
+  font-weight: bold;
 }
 
 .textlogo {
 
-    color: rgb(85, 85, 85);
+  color: rgb(85, 85, 85);
 }
 
 .navlist3 li a {
 
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .serch-icon3 {
-    font-size: 21PX;
-    margin-right: 10PX;
+  font-size: 21PX;
+  margin-right: 10PX;
 
 }
 
 .menu {
-    font-size: 30px;
-    display: none;
+  font-size: 30px;
+  display: none;
 }
-.listclick3 li :hover{ border: 2px solid blue;
-background-color: #1c69d4;
-    color: #ffff;
-    border: none;
-    padding: 16px;
-}
-.serch-icon3 :hover{border: 2px solid blue;
-background-color: #1c69d4;
-    color: #ffff;
-    border: none;
-    padding: 16px;
-cursor: pointer;}
 
+.listclick3 li :hover {
+  border: 2px solid blue;
+  background-color: #1c69d4;
+  color: #ffff;
+  border: none;
+  padding: 16px;
+  transition: 0.2s ease;
+}
+
+.serch-icon3 :hover {
+  border: 2px solid blue;
+  background-color: #1c69d4;
+  color: #ffff;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* navbar end */
 
 
 /* hero section */
 
-.vido2{display: block;}
+.vido2 {
+  display: block;
+}
+
 .text6 {
-    color: aliceblue;
-    padding: 30px;
-    
+  color: aliceblue;
+  padding: 30px;
+
 }
 
 
 .info {
-    color: aliceblue;
-    line-height: 40px;
-    font-size: 25px;
-    padding-bottom: 50px;
+  color: aliceblue;
+  line-height: 40px;
+  font-size: 25px;
+  padding-bottom: 50px;
 }
 
-.maincontant{
-    padding-left: 90px;
-    padding-top: 60px;
-    background-color: rgb(38, 37, 37);
+.maincontant {
+  padding-left: 90px;
+  padding-top: 60px;
+  background-color: rgb(38, 37, 37);
 
-  
+
 }
 
 
 
 h1 {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-size: 72px;          
-  font-weight: 300;         
-  letter-spacing: 0.12em;   
+  font-size: 72px;
+  font-weight: 300;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   line-height: 1.1;
   color: #ffffff;
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
-.info-sec{
+.info-sec {
 
 
-    color: black; 
- 
-     padding: 90px 90px;
-     
+  color: black;
+
+  padding: 90px 90px;
+
 }
-.minitext{
- 
+
+.minitext {
+
   font-size: 28px;
   line-height: 1.4;
   color: #000;
@@ -156,20 +169,23 @@ h1 {
 }
 
 
-.info-link{text-decoration: none;
+.info-link {
+  text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   color: rgb(75, 74, 74);
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  letter-spacing: 1px;}
+  letter-spacing: 1px;
+}
 
 
-  .info-link .arrow {
+.info-link .arrow {
   font-size: 30px;
   color: #000;
 }
+
 /*  hero section end */
 
 
@@ -235,6 +251,7 @@ h1 {
   padding-top: 40px;
   font-size: 17px;
 }
+
 /* footer end */
 
 /* Responsive */
